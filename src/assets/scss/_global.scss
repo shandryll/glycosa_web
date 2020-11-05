@@ -1,0 +1,27 @@
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Import Font-Awesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+// Import Montserrat font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.form-group {
+  label {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+}

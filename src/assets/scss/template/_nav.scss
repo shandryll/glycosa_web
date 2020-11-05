@@ -1,0 +1,43 @@
+.sidebarMenu {
+  position: fixed;
+  top: 100px;
+  z-index: 10;
+}
+
+aside.menu-area {
+  background-color: $green-glycosa;
+  box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.12), 2px 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+aside.menu-area.mobile {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 225px;
+  max-width: 225px;
+  background-color: $green-glycosa;
+  box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.12), 2px 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  padding: 15px;
+  font-weight: 300;
+
+  &:hover {
+    background: linear-gradient(135deg, $red-glycosa 0%, $mint-cream 100%);
+  }
+}
+
+nav.menu {
+  width: 100%;
+  li {
+    list-style-type: none;
+
+    a {
+      padding: 10px;
+    }
+  }
+}
